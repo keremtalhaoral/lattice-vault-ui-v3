@@ -1,0 +1,15 @@
+# never commit vault data, keys, agent tokens or logs
+demo/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.kek
+keys*
+agents.json
+*.jsonl
+*.log
+__pycache__/
+*.pyc
+.playwright-mcp/
+.DS_Store

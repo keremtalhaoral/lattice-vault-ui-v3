@@ -1,0 +1,6 @@
+Lattice Vault UI v3
+Copyright 2026 Kerem Talha Oral. Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Bundled fonts (static/fonts/, WOFF2 subsets from the Fontsource npm packages):
+- Source Serif 4 (400/500/600) — SIL Open Font License 1.1, static/fonts/OFL-SourceSerif4.txt
+- IBM Plex Mono (400/500) — SIL Open Font License 1.1, static/fonts/OFL-IBMPlexMono.txt

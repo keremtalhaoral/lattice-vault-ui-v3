@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Lattice Vault</title>
+<link rel="icon" href="data:,">
+<link rel="preload" href="/static/fonts/source-serif-4-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/styles.css">
+<script type="module" src="/static/js/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">İçeriğe atla</a>
+<header class="top">
+  <div class="wrap top-row">
+    <p class="wordmark"><a href="#/bellekler">Lattice Vault</a></p>
+    <nav aria-label="Ana gezinme">
+      <ul class="tabs">
+        <li><a href="#/bellekler" data-tab="bellekler">Bellekler</a></li>
+        <li><a href="#/kuyruk" data-tab="kuyruk">Kuyruk <span class="count" id="queue-count">(–)</span><span class="vh"> bekleyen öneri</span></a></li>
+        <li><a href="#/gecmis" data-tab="gecmis">Geçmiş</a></li>
+        <li><a href="#/ayarlar" data-tab="ayarlar">Ayarlar</a></li>
+      </ul>
+    </nav>
+    <p class="local mono">yerel · salt-okunur</p>
+  </div>
+</header>
+<main id="main" tabindex="-1" class="wrap">
+  <noscript><p class="state">Bu arayüz JavaScript gerektirir (yerel, harici kaynak yok).</p></noscript>
+  <div id="view" aria-live="polite"></div>
+</main>
+<p id="announce" class="vh" aria-live="polite"></p>
+</body>
+</html>
